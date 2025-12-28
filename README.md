@@ -6,7 +6,6 @@ Comprehensive Jupyter notebook tutorials for learning Chonkie - the lightweight 
 
 ### 1. Chunkers Tutorial (Beginner)
 **File:** `notebooks/chonkie_complete_tutorial.ipynb`
-**Duration:** 2-2.5 hours
 
 Learn all 9 Chonkie chunking strategies:
 - Foundation chunkers (Token, Sentence, Recursive)
@@ -16,7 +15,6 @@ Learn all 9 Chonkie chunking strategies:
 
 ### 2. Advanced Tutorial (Intermediate)
 **File:** `notebooks/chonkie_advanced_tutorial.ipynb`
-**Duration:** 60-90 minutes
 **Prerequisites:** Complete chunkers tutorial first
 
 Master production RAG features:
@@ -24,6 +22,23 @@ Master production RAG features:
 - Porters (JSONPorter, DatasetsPorter)
 - Handshakes (ChromaDB, Pinecone, and more)
 - Complete end-to-end RAG pipelines
+
+## Documentation
+
+### Theoretical Concepts Guide
+**File:** `docs/chunkers-theoretical-concepts.md`
+
+Comprehensive theoretical documentation covering:
+- **Detailed algorithms** for all 9 chunkers
+- **Mathematical foundations** (embeddings, similarity metrics, information theory)
+- **Performance analysis** (speed, quality, cost trade-offs)
+- **Use case recommendations** and best practices
+- **RAG optimization theory** and retrieval metrics
+- **Comparative analysis** and decision frameworks
+
+Perfect for students and developers who want to deeply understand the theory behind each chunking strategy.
+
+[Read the Theoretical Concepts Guide →](docs/chunkers-theoretical-concepts.md)
 
 ## Prerequisites
 
@@ -87,6 +102,8 @@ chonkie-chunkers-tutorials/
 ├── notebooks/
 │   ├── chonkie_complete_tutorial.ipynb    # Beginner: All 9 chunkers
 │   └── chonkie_advanced_tutorial.ipynb    # Advanced: Refineries, Porters, Handshakes
+├── docs/
+│   └── chunkers-theoretical-concepts.md   # Theoretical foundations and algorithms
 ├── data/
 │   ├── sample_technical_doc.txt           # API documentation
 │   ├── sample_research_paper.txt          # Research paper
@@ -100,25 +117,25 @@ chonkie-chunkers-tutorials/
 
 ## Tutorial Overviews
 
-### Chunkers Tutorial (2-2.5 hours)
+### Chunkers Tutorial 
 
-1. **Introduction & Setup** (15 min) - Environment setup, Gemini configuration
-2. **Foundation Chunkers** (20 min) - TokenChunker, SentenceChunker, RecursiveChunker
-3. **Specialized Chunkers** (20 min) - TableChunker, CodeChunker
-4. **Semantic Chunkers** (25 min) - SemanticChunker, LateChunker, NeuralChunker
-5. **Advanced Chunker** (15 min) - SlumberChunker (LLM-powered)
-6. **Comparative Analysis** (15 min) - Performance metrics and comparisons
-7. **Best Practices** (10 min) - Chunker selection guide, use cases
-8. **Exercises & Next Steps** (5 min) - Hands-on practice
+1. **Introduction & Setup** - Environment setup, Gemini configuration
+2. **Foundation Chunkers** - TokenChunker, SentenceChunker, RecursiveChunker
+3. **Specialized Chunkers** - TableChunker, CodeChunker
+4. **Semantic Chunkers** - SemanticChunker, LateChunker, NeuralChunker
+5. **Advanced Chunker** - SlumberChunker (LLM-powered)
+6. **Comparative Analysis** - Performance metrics and comparisons
+7. **Best Practices** - Chunker selection guide, use cases
+8. **Exercises & Next Steps** - Hands-on practice
 
-### Advanced Tutorial (60-90 minutes)
+### Advanced Tutorial
 
-1. **Introduction & Setup** (10 min) - Advanced features overview
-2. **Refineries** (25 min) - OverlapRefinery, EmbeddingsRefinery, Pipeline chaining
-3. **Porters** (15 min) - JSONPorter, DatasetsPorter, data export
-4. **Handshakes** (30 min) - ChromaDB, Pinecone, complete RAG workflow
-5. **Best Practices** (10 min) - Production patterns, cost optimization
-6. **Exercises** (5 min) - Hands-on advanced projects
+1. **Introduction & Setup** - Advanced features overview
+2. **Refineries** - OverlapRefinery, EmbeddingsRefinery, Pipeline chaining
+3. **Porters** - JSONPorter, DatasetsPorter, data export
+4. **Handshakes** - ChromaDB, Pinecone, complete RAG workflow
+5. **Best Practices** - Production patterns, cost optimization
+6. **Exercises** - Hands-on advanced projects
 
 ## Features
 
